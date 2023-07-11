@@ -25,11 +25,8 @@
 // ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 // POSSIBILITY OF SUCH DAMAGE.
 
-#if __has_include("RCTBridgeModule.h")
-#import "RCTBridgeModule.h"
-#else
+
 #import <React/RCTBridgeModule.h>
-#endif
 #import <os/log.h>
 
 @interface RNSFMCSdk : NSObject <RCTBridgeModule>
